@@ -12,7 +12,7 @@
 - name: "Download the FECBENCH-SERVER_DOCKER git package"
   git: 
     dest: $HOME/fecbench-server-docker
-    repo: "https://github.com/doc-vu/fecbench-server-docker.git"
+    repo: "https://github.com/ZhuangweiKang/fecbench-server-docker.git"
     force: yes
 
 - name: pull the docker images

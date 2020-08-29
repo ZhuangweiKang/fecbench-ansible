@@ -47,7 +47,7 @@
   tasks: 
     - name: "update the etc hosts for indices-manager"
       #become: yes
-      sudo: yes
+      #sudo: yes
       lineinfile: 
         group: root
         line: "{{indices_manager_ip}} indices-manager"
