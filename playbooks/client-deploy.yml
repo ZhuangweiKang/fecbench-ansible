@@ -30,10 +30,10 @@
         collectd_numa_cpu_aggr: no,
         docker_stats: yes,
         # YUM SPECIFIC
-        #collectd_config_file: '/etc/collectd.conf',
-        #collectd_config_dir: '/etc/collectd.d/',
+        # collectd_config_file: '/etc/collectd.conf',
+        # collectd_config_dir: '/etc/collectd.d/',
         # collectd_plugins_dir: '/usr/lib64/collectd',
-        #collectd_sbin_path: '/usr/sbin'
+        # collectd_sbin_path: '/usr/sbin'
 
         }
     #- { role: docvu.collectd-nvidia,
@@ -57,4 +57,4 @@
         regexp: indices-manager
         state: present
   vars: 
-    indices_manager_ip: x.x.x.x
+    indices_manager_ip: 10.0.0.11

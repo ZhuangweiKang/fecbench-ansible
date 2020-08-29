@@ -51,9 +51,9 @@ y.y.y.y ansible_ssh_private_key_file="/home/vagrant/keys/chameli/chameleon.pem" 
 4) Now we are ready to install the packages.
 
 ```
- ansible-playbook playbooks/server-deploy.yml -i fecbench_inv --limit server -vvv
+ansible-playbook playbooks/server-deploy.yml -i fecbench_inv --limit server -vvv
  
- ansible-playbook playbooks/client-deploy.yml -i fecbench_inv --limit client -vvv
+ansible-playbook playbooks/client-deploy.yml -i fecbench_inv --limit client -vvv
 
 ```
 

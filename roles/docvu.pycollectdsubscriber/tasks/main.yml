@@ -3,7 +3,7 @@
 - name: "Download the pycollector package"
   git: 
     dest: $HOME/pycollectdsubscriber
-    repo: "https://github.com/doc-vu/pycollectdsubscriber.git"
+    repo: "https://github.com/ZhuangweiKang/fecbench-server-docker.git"
     force: yes
 
 - name: install the pre-requisites
