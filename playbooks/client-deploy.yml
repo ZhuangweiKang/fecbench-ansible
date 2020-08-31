@@ -29,6 +29,7 @@
         collectd_write_amqp: yes,
         collectd_numa_cpu_aggr: no,
         docker_stats: yes,
+        docker_kafka_stats: yes,
         # YUM SPECIFIC
         # collectd_config_file: '/etc/collectd.conf',
         # collectd_config_dir: '/etc/collectd.d/',

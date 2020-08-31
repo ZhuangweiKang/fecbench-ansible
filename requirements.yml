@@ -2,7 +2,7 @@
 # - src: geerlingguy.git
 
 #collecd Using the collectd ppa no-recommends
-- src: https://github.com/doc-vu/Stouts.collectd.git
+- src: https://github.com/ZhuangweiKang/Stouts.collectd.git
   version: develop
   name: Stouts.collectd
 
