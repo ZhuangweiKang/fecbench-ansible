@@ -58,4 +58,4 @@
         regexp: indices-manager
         state: present
   vars: 
-    indices_manager_ip: 10.0.0.11
+    indices_manager_ip: 127.0.0.1
